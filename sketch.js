@@ -6,7 +6,7 @@ function setup() {
 
   createCanvas(500, 500);
 
-  background(255);
+  background(150);
   v1 = createVector(50,50);
   v2 = createVector(200,50);
   v3 = createVector(350,50);
