@@ -20,9 +20,9 @@ function setup() {
 
 function draw() {
 
-  background(255)
+  background(170)
 
-
+  noStroke();
   fill(255,0,0);
   ellipse(v1.x,v1.y,50);
   fill(255,255,0);
