@@ -23,22 +23,22 @@ function draw() {
   background(170)
 
   noStroke();
-  fill(255,0,0);
+  fill(255,0,0,75);
   ellipse(v1.x,v1.y,50);
-  fill(255,255,0);
+  fill(255,255,75);
   ellipse(v2.x,v2.y,75);
-  fill(0,255,0);
+  fill(0,255,75);
   ellipse(v3.x,v3.y,100);
-  fill(0,0,255);
+  fill(0,0,255,75);
   ellipse(v4.x,v4.y,55);
 
-  fill(255,150,0);
+  fill(255,150,75);
   ellipse(v5.x,v5.y,50);
-  fill(255,255,100);
+  fill(255,255,100,75);
   ellipse(v6.x,v6.y,75);
-  fill(0,150,0);
+  fill(0,150,0,75);
   ellipse(v7.x,v7.y,100);
-  fill(75,100,255);
+  fill(75,100,255,75);
   ellipse(v8.x,v8.y,55);
 
   v1.x=v1.x+(mouseX-v1.x)/50;
